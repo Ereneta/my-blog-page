@@ -17,12 +17,12 @@ body{
 /* Left column */
 .leftcolumn {   
     float: left;
-    width: 80%;
+    width: 40%;
   }
   
   /* Right column */
   .rightcolumn {
-    float: left;
+    float: right;
     width: 25%;
     padding-left: 0;
   }
@@ -32,7 +32,7 @@ body{
     background-image: url(img/tokyo-japan-wallpaper.jpg);
     background-size: cover;
     background-color: #aaa;
-    width: 97%;
+    width: 95%;
     padding: 20px;
   }
 
@@ -116,14 +116,15 @@ body{
      padding: 20px;
      margin-top: 20px;
      font-size: 15.9px;
-     width: 121.5%;
+     width: 160%;
   }
  .card2 {
     background-color:#f9aab8;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 15px;
-    width: 60%;
+    width: 130%;
  }
  
 .card3 {
@@ -131,8 +132,8 @@ body{
   padding: 20px;
   margin-top: 20px;
   font-size: 15px;
-  width: 121.5%;
-  float: left;
+  width: 100%;
+  float: right;
 }
 
 .card6{
@@ -140,8 +141,8 @@ body{
   padding: 20px;
   margin-top: 20px;
   font-size: 15px;
-  width: 45%;
-  float: right;
+  width: 100%;
+  float: left;
 }
   
   /* Clear floats after the columns */
