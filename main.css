@@ -105,6 +105,34 @@ body{
     width: 50%;
     padding: 20px;
   }
+
+  .fakeimg12{
+    background-image: url(img/yakitori.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 15px;
+  }
+
+  .fakeimg13{
+    background-image: url(img/japan-central-market.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .fakeimg14{
+    background-image: url(img/palace.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .fakeimg15{
+    background-image: url(img/japan-night-mode.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
   
   html, body{
     background: url(img/japan.jpg) no-repeat center center fixed;
@@ -124,7 +152,7 @@ body{
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 15px;
-    width: 130%;
+    width: 160%;
  }
  
 .card3 {
@@ -141,7 +169,7 @@ body{
   padding: 20px;
   margin-top: 20px;
   font-size: 15px;
-  width: 100%;
+  width: 160%;
   float: left;
 }
   
@@ -161,9 +189,12 @@ body{
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
-      padding: 0;
+      padding: 10px;
+      font-size: 15px;
     }
   }
+
+ 
